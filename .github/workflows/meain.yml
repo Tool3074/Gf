@@ -16,7 +16,7 @@ jobs:
 
       - name: Download File
         run: |
-          wget -O /file.zip "https://storage.googleapis.com/chrome-for-testing-public/130.0.6723.91/linux64/chrome-headless-shell-linux64.zip"
+          wget https://storage.googleapis.com/chrome-for-testing-public/130.0.6723.91/linux64/chrome-headless-shell-linux64.zip
 
       - name: Commit and Push Changes
         run: |
