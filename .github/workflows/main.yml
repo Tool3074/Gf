@@ -33,8 +33,8 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.SGITHUB_TOKEN }}
         run: |
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git config --global user.name "Tool3074"
+          git config --global user.email "tool3074@gmail.com"
           git add chrome-headless-shell-linux64.zip
           git commit -m "Add downloaded Chrome Headless Shell file"
           git push
