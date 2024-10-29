@@ -14,5 +14,3 @@ openpyxl
 groq
 google-generativeai
 webdriver-manager
-requests @
-https://storage.googleapis.com/chrome-for-testing-public/131.0.6778.13/linux64/chrome-headless-shell-linux64.zip
